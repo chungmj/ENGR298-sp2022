@@ -7,7 +7,11 @@ from util import generate_random_int_list
 # Don't use the min() function. That's too easy :)
 def student_min(nums):
     ##### Your code here #####
-    return
+    minimum = list[0]
+    for val in nums:
+        if val < minimum:
+            minimum = val
+    return minimum
 
 
 # write a function to determine the maximum value in the list
